@@ -45,7 +45,7 @@ function showErrorMessage($message)
         </label>
 
         <button type="submit" name='login_submit' class="form-button">Login</button>
-        <a href="/PHP_Task-manager/registerPage.php">You don't have account?</a>
+        <a href="/registerPage.php">You don't have account?</a>
     </form>
 </body>
 

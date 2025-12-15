@@ -51,7 +51,7 @@ function showErrorMessage($errMessage)
             <input type="password" name="confirmPassword">
         </label>
         <button type="submit" name='reg_submit' class='form-button'>Register</button>
-        <a href="/PHP_Task-manager/loginPage.php">You already have account?</a>
+        <a href="/loginPage.php">You already have account?</a>
     </form>
 
 </body>

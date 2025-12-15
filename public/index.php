@@ -19,7 +19,7 @@ session_start();
     <div class="content">
         <h1>Welcome in <span class="name">task-manager</span>!</h1>
 
-        <a href="/PHP_Task-manager/loginPage.php" class="button">let's start</a>
+        <a href="/loginPage.php" class="button">let's start</a>
     </div>
 </body>
 
