@@ -1,0 +1,121 @@
+body {
+  background-color: #964d4d;
+  color: #ffffff;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: #ffffff;
+
+  margin: auto;
+
+  width: 80%;
+
+  padding: 12px 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  @media screen and (min-width: 768px) {
+    width: 60%;
+    padding: 16px 12px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 50%;
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+label {
+  color: #591f1f;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: start;
+  gap: 4px;
+
+  font-size: 12px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
+
+input {
+  width: 97%;
+  padding: 2px 4px;
+  border: 1px solid #500000;
+
+  &:focus,
+  &:active {
+    outline: 1px solid #500000;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 4px 6px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 4px 8px;
+  }
+}
+
+.title {
+  color: #500000;
+  text-decoration: underline;
+
+  font-size: 24px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
+}
+
+.form-button {
+  padding: 4px 16px;
+  color: #ffffff;
+  background-color: #591f1f;
+  border: transparent;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    padding: 6px 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 6px 54px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #591f1f;
+}
+
+.error {
+  border: 1px solid red;
+  background-color: rgb(224, 80, 80);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
