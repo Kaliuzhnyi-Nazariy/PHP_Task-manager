@@ -10,4 +10,3 @@ RUN chown -R www-data:www-data /var/www/html
 
 EXPOSE 80
 
-RUN service apache2 reload
