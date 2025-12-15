@@ -4,7 +4,6 @@ $DB_USER = getenv('DB_USER');
 $DB_PASSWORD = getenv('DB_PASSWORD');
 $DB_DATABASE = getenv('DB_DATABASE');
 
-echo $DB_HOST, $DB_USER, $DB_PASSWORD, $DB_DATABASE;
 
 try {
     $conn = new mysqli($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_DATABASE);
